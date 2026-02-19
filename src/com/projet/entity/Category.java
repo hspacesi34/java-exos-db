@@ -1,6 +1,6 @@
 package com.projet.entity;
 
-public class Category {
+public class Category extends AbstractEntity {
     private int id;
     private String name;
 
