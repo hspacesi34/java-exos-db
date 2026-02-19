@@ -1,23 +1,22 @@
 package com.projet.entity;
 
-public class Category extends AbstractEntity {
+public class Manufacturer extends AbstractEntity {
     private int id;
     private String name;
 
-    public Category() {}
-
-    public Category(String name) {
+    public Manufacturer() {
+    }
+    public Manufacturer(String name) {
         this.name = name;
     }
-
-    public Category(int id, String name) {
+    public Manufacturer(int id, String name) {
         this.id = id;
         this.name = name;
     }
 
     @Override
     public String toString() {
-        return "Category{" +
+        return "Manufacturer{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';
@@ -25,10 +24,6 @@ public class Category extends AbstractEntity {
 
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getName() {

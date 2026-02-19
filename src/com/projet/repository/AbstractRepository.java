@@ -14,4 +14,6 @@ public abstract class AbstractRepository<T extends AbstractEntity> {
     protected abstract T find(int id);
 
     protected abstract ArrayList<T> findAll();
+
+    protected abstract void delete(int id);
 }
